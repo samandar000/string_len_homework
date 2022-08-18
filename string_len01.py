@@ -6,6 +6,5 @@ def main(a):
     Returns:
         length of string
     """
-    return a
-a="python"
-print(len(a))
+    return len(a)
+print(main('python'))
