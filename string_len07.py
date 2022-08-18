@@ -10,12 +10,11 @@ def main(s1,s2,s3):
     """
     s=""
     if len(s1)%2==1:
-        s+=s1+","
+        s+=s1+", "
     if len(s2)%2==1:
-        s+=s2+","
+        s+=s2+", "
     if len(s3)%2==1:
         s+=s3
-    return "["+s+"]" 
-print(main('code','codes','codesss'))
+    return "["+s+"]"
     
     
