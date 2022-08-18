@@ -16,5 +16,6 @@ def main(s1,s2,s3):
     if len(s3)%2==1:
         s+=s3
     return "["+s+"]" 
+print(main('code','codes','codesss'))
     
     
