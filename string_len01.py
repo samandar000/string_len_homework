@@ -7,4 +7,4 @@ def main(a):
         length of string
     """
     return a
-print(len("python"))
+print(main(len("python")))
